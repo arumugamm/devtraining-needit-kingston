@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="980621cadb7023008b6e9235ca9619b7" sys_domain="global" table="x_58872_needit_exercise" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 13:56:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc0621cadb7023008b6e9235ca9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_exercise" name="x_58872_needit_exercise" sys_domain="global" view="Default view">980621cadb7023008b6e9235ca9619b7</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_exercise" sys_domain="global" view="Default view">6fee28b9db7023008b6e9235ca9619a1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 13:56:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 13:56:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d80621cadb7023008b6e9235ca9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_exercise" name="x_58872_needit_exercise" sys_domain="global" view="Default view">980621cadb7023008b6e9235ca9619b7</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_58872_needit_exercise" sys_domain="global" view="Default view">940621cadb7023008b6e9235ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 13:56:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 14:57:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8e33182dbb023008b6e9235ca96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_exercise" name="x_58872_needit_exercise" sys_domain="global" view="Default view">980621cadb7023008b6e9235ca9619b7</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_58872_needit_exercise" sys_domain="global" view="Default view">30e33182dbb023008b6e9235ca961969</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 14:57:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 14:59:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52547582dbb023008b6e9235ca9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_exercise" name="x_58872_needit_exercise" sys_domain="global" view="Default view">980621cadb7023008b6e9235ca9619b7</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_58872_needit_exercise" sys_domain="global" view="Default view">d6543582dbb023008b6e9235ca96195d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 14:59:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:18:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2dc87d06dbb023008b6e9235ca9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_exercise" name="x_58872_needit_exercise" sys_domain="global" view="Default view">980621cadb7023008b6e9235ca9619b7</sys_ui_form>
+            <sys_ui_section caption="Review" display_value="Review" name="x_58872_needit_exercise" sys_domain="global" view="Default view">29c87d06dbb023008b6e9235ca9619a1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:18:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 15:42:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d45ef9c6dbb023008b6e9235ca961996</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_exercise" name="x_58872_needit_exercise" sys_domain="global" view="Default view">980621cadb7023008b6e9235ca9619b7</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_58872_needit_exercise" sys_domain="global" view="Default view">d85eb9c6dbb023008b6e9235ca96198d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 15:42:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 16:30:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8919064edbb023008b6e9235ca961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_exercise" name="x_58872_needit_exercise" sys_domain="global" view="Default view">980621cadb7023008b6e9235ca9619b7</sys_ui_form>
+            <sys_ui_section caption="IT teams involved" display_value="IT teams involved" name="x_58872_needit_exercise" sys_domain="global" view="Default view">8919064edbb023008b6e9235ca96195d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 16:30:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_58872_needit_exercise</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 13:56:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>980621cadb7023008b6e9235ca9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_exercise</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_980621cadb7023008b6e9235ca9619b7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 13:56:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Exercise" max_length="40" name="x_58872_needit_exercise" type="collection">
+        <element label="QCS Impacted" max_length="40" name="u_boolean_10" type="boolean"/>
+        <element label="Flag for Ticket Review" max_length="40" name="u_boolean_14" type="boolean"/>
+        <element label="Dept_Application" max_length="40" name="u_boolean_42" type="boolean"/>
+        <element label="Dept_Core Infrastructure" max_length="40" name="u_boolean_43" type="boolean"/>
+        <element label="3rd Party External" max_length="40" name="u_boolean_44" type="boolean"/>
+        <element label="QCS Impact" max_length="40" name="u_boolean_qcs" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Device Affected" max_length="40" name="u_choice_12" type="string">
+            <choice>
+                <element label="PC" sequence="0" value="PC"/>
+                <element label="Lab PC" sequence="1" value="Lab PC"/>
+                <element label="MAC" sequence="2" value="MAC"/>
+                <element label="Tablet" sequence="3" value="tablet"/>
+                <element label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Impact type" max_length="40" name="u_choice_18" type="string">
+            <choice>
+                <element label="Security" sequence="0" value="Security"/>
+                <element label="Quality" sequence="1" value="Quality"/>
+                <element label="SOX" sequence="2" value="SOX"/>
+                <element label="GXP" sequence="3" value="gxp"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Caused by Change" max_length="40" name="u_choice_20" type="string">
+            <choice>
+                <element label="Service Now Change" sequence="0" value="Service Now Change"/>
+                <element label="Other IT Change" sequence="1" value="other it change"/>
+                <element label="Business Change" sequence="2" value="Business Change"/>
+                <element label="Vendor Change" sequence="3" value="Vendor Change"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Quality issue" max_length="40" name="u_choice_29" type="string">
+            <choice>
+                <element label="Business Service Missing" sequence="0" value="business service missing"/>
+                <element label="Complaint" sequence="1" value="complaint"/>
+                <element label="Compliment" sequence="2" value="compliment"/>
+                <element label="KB not Followed" sequence="3" value="kb not followed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_choice_31" type="string">
+            <choice>
+                <element label="Cancelled" sequence="0" value="cancelled"/>
+                <element label="In Stage" sequence="1" value="in stage"/>
+                <element label="Resolved" sequence="2" value="resolved"/>
+                <element label="Pending" sequence="3" value="pending"/>
+                <element label="Open" sequence="4" value="open"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Action taken" max_length="40" name="u_choice_33" type="string">
+            <choice>
+                <element label="CMDB Updated" sequence="0" value="cmdb updated"/>
+                <element label="Communicated" sequence="1" value="communicated"/>
+                <element label="KB Updated" sequence="2" value="kb updated"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Close Code" max_length="40" name="u_choice_36" type="string">
+            <choice>
+                <element label="Information Provided" sequence="0" value="information provided"/>
+                <element label="Fixed Permanently" sequence="1" value="fixed permanently"/>
+                <element label="Fixed with Workaround" sequence="2" value="fixed with workaround"/>
+                <element label="Auto Resolved through Monitoring" sequence="3" value="auto resolved through monitoring"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="u_choice_category" type="string">
+            <choice>
+                <element label="Outage/Failure" sequence="0" value="outage/failure"/>
+                <element label="Error Message" sequence="1" value="error message"/>
+                <element label="Performance" sequence="2" value="performance"/>
+                <element label="Access Permission" sequence="3" value="access permission"/>
+                <element label="Intermittent" sequence="4" value="intermittent"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Device Affected" max_length="40" name="u_choice_da" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Device Affected" max_length="40" name="u_choice_dat" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Device Affected" max_length="40" name="u_choice_deviceaffected" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Language" max_length="40" name="u_choice_language" read_only="true" type="string">
+            <choice>
+                <element label="Japenese" sequence="0" value="japenese"/>
+                <element label="English" sequence="1" value="english"/>
+                <element label="Chinese" sequence="2" value="chinese"/>
+            </choice>
+        </element>
+        <element label="New Data Structure" max_length="800" name="u_data_structure_45" type="data_structure"/>
+        <element label="Identify one or more teams who participated in restoring service:-" max_length="80" name="u_field_name_46" type="field_name"/>
+        <element label="Quality issue resolved" max_length="40" name="u_glide_date_time_34" type="glide_date_time"/>
+        <element label="Actual Resolved Time" max_length="40" name="u_glide_duration_38" type="glide_duration"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Business Units" max_length="1024" name="u_glide_list_15" reference="business_unit" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Resolution CI Service Tower" max_length="1024" name="u_glide_list_40" reference="cmdb_ci" type="glide_list"/>
+        <element label="New Time" max_length="40" name="u_glide_time_39" type="glide_time"/>
+        <element label="Alternative Contact" max_length="32" name="u_reference_13" reference="sys_user" type="reference"/>
+        <element label="Problem" max_length="32" name="u_reference_19" reference="problem" type="reference"/>
+        <element label="Owned By" max_length="32" name="u_reference_22" reference="sys_user_group" type="reference"/>
+        <element label="Call" max_length="32" name="u_reference_24" reference="change_phase" type="reference"/>
+        <element label="Chat Ticket" max_length="32" name="u_reference_25" reference="chat_queue" type="reference"/>
+        <element label="Group with Quality issue" max_length="32" name="u_reference_30" reference="sys_user_group" type="reference"/>
+        <element label="Resolution CI" max_length="32" name="u_reference_35" reference="cmdb_ci" type="reference"/>
+        <element label="Alternative Contact" max_length="32" name="u_reference_ac" reference="sys_user" type="reference"/>
+        <element label="Caller" mandatory="true" max_length="32" name="u_reference_caller" reference="sys_user" type="reference"/>
+        <element label="Related FR ticket" max_length="32" name="u_reference_rfrt" reference="cmn_cost_center" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="Include" label="Exclude From Metrics" max_length="100" name="u_string_16" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor reference" max_length="40" name="u_string_23" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Survey" max_length="40" name="u_string_26" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Flagged For Review" max_length="40" name="u_string_27" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Flagged by" max_length="40" name="u_string_28" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quality issue description" max_length="4000" name="u_string_32" type="string"/>
+    </element>
+</database>
