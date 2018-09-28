@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Exercise" max_length="40" name="x_58872_needit_exercise" type="collection">
+    <element extends="task" label="Incident" max_length="40" name="x_58872_needit_exercise" type="collection">
         <element label="QCS Impacted" max_length="40" name="u_boolean_10" type="boolean"/>
         <element label="Flag for Ticket Review" max_length="40" name="u_boolean_14" type="boolean"/>
         <element label="Dept_Application" max_length="40" name="u_boolean_42" type="boolean"/>
@@ -96,6 +96,12 @@
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Business Units" max_length="1024" name="u_glide_list_15" reference="business_unit" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Resolution CI Service Tower" max_length="1024" name="u_glide_list_40" reference="cmdb_ci" type="glide_list"/>
         <element label="New Time" max_length="40" name="u_glide_time_39" type="glide_time"/>
+        <element label="Time to Detect" max_length="40" name="u_glide_time_4" type="glide_time"/>
+        <element label="Time to Engage" max_length="40" name="u_glide_time_5" type="glide_time"/>
+        <element label="Time to Validate" max_length="40" name="u_glide_time_6" type="glide_time"/>
+        <element label="Time to Communicate" max_length="40" name="u_glide_time_7" type="glide_time"/>
+        <element label="New Icon" max_length="100" name="u_icon_1" type="icon"/>
+        <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_2" type="journal"/>
         <element label="Alternative Contact" max_length="32" name="u_reference_13" reference="sys_user" type="reference"/>
         <element label="Problem" max_length="32" name="u_reference_19" reference="problem" type="reference"/>
         <element label="Owned By" max_length="32" name="u_reference_22" reference="sys_user_group" type="reference"/>
@@ -103,9 +109,11 @@
         <element label="Chat Ticket" max_length="32" name="u_reference_25" reference="chat_queue" type="reference"/>
         <element label="Group with Quality issue" max_length="32" name="u_reference_30" reference="sys_user_group" type="reference"/>
         <element label="Resolution CI" max_length="32" name="u_reference_35" reference="cmdb_ci" type="reference"/>
+        <element label="Verified By" max_length="32" name="u_reference_8" reference="sys_user" type="reference"/>
         <element label="Alternative Contact" max_length="32" name="u_reference_ac" reference="sys_user" type="reference"/>
         <element label="Caller" mandatory="true" max_length="32" name="u_reference_caller" reference="sys_user" type="reference"/>
         <element label="Related FR ticket" max_length="32" name="u_reference_rfrt" reference="cmn_cost_center" type="reference"/>
+        <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_3" type="simple_name_values"/>
         <element attributes="edge_encryption_enabled=true" default="Include" label="Exclude From Metrics" max_length="100" name="u_string_16" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Vendor reference" max_length="40" name="u_string_23" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Survey" max_length="40" name="u_string_26" read_only="true" type="string"/>

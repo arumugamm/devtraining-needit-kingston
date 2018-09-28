@@ -99,6 +99,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-28 16:30:00</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-28 17:22:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0351606dbf023008b6e9235ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_exercise" name="x_58872_needit_exercise" sys_domain="global" view="Default view">980621cadb7023008b6e9235ca9619b7</sys_ui_form>
+            <sys_ui_section caption="incident performance" display_value="incident performance" name="x_58872_needit_exercise" sys_domain="global" view="Default view">dc351606dbf023008b6e9235ca9619b1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-28 17:22:55</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_58872_needit_exercise</name>
             <roles/>
